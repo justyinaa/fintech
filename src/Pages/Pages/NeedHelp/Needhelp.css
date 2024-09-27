@@ -1,0 +1,20 @@
+.need-help{
+    display: flex;
+    justify-content: space-between;
+}
+.need-help-info{
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+}
+.need-help-img{
+    width: 5rem;
+    height: 4rem;
+}
+.need-help-div2{
+    display: flex;
+   gap: 5rem;
+}
+.need-help-div1{
+    width: 30%;
+}

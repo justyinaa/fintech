@@ -1,0 +1,25 @@
+.footer-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-div1{
+    width: 30%;
+}
+.footer-div2{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text{
+    margin-bottom: 3rem;
+}
+
+.logo {
+    width: 7rem;
+    height: 3rem;
+}
+.footer{
+    background-color: #695EED;
+    color: white;
+}

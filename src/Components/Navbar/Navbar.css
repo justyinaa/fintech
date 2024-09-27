@@ -1,0 +1,158 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 4rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: transparent;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar.scrolled {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  height: 50px;
+}
+
+/* Navigation items */
+.nav-items {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-item-container {
+  position: relative;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: #2e2e2e;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+/* Dropdown menu styles */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  border-radius: 5px;
+  z-index: 999;
+  width: 100px;
+}
+
+.dropdown-item {
+  display: block;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: #2e2e2e;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+.dropdown-menu.open {
+  display: block;
+  width: 100px;
+}
+
+/* Register button styles */
+.register-button {
+  padding: 10px 20px;
+  background-color: #3db8f5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-button:hover {
+  background-color: #17a4eb;
+}
+
+/* Menu icon for mobile */
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  color: #2e2e2e;
+}
+
+.menu-icon svg {
+  height: 24px;
+  width: 24px;
+}
+
+.button-div {
+  display: none;
+}
+
+@media (min-width: 769px) {
+    /* SHOW REGISTER BUTTON */
+  .button-div {
+    display: block;
+  }
+}
+
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .nav-items {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 1rem 2rem;
+    gap: 1rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Show the nav items when menu is open */
+  .nav-items.open {
+    display: flex;
+  }
+
+  .menu-icon {
+    display: block;
+  }
+
+  .dropdown-menu {
+    position: relative;
+  }
+
+  .dropdown-item {
+    padding: 10px;
+  }
+
+  .button-div.show {
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  .register-button {
+    width: 100%;
+  }
+}
+

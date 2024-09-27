@@ -1,0 +1,25 @@
+
+.advantages-div{
+    display: flex;
+    width: 100%;
+}
+.phone-div{
+    width: 50%;
+}
+.all-advantages{
+    width: 50%;
+}
+.advantages{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.advantages-header{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+@media (max-width: 768px) {
+.phone-div{
+    display: none;
+}
+}

@@ -1,0 +1,41 @@
+.contact-us {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.form {
+  background-color: #695eed;
+  color: white;
+  padding: 3rem;
+}
+.form-label {
+  display: block;
+  margin: .5rem 0;
+}
+.form-input {
+  width: 25rem;
+  padding: 1rem;
+  background-color: white;
+  color: #cccccc;
+  border: white;
+  border-radius: 5px;
+}
+.contact-img {
+  width: 3rem;
+  height: 3rem;
+}
+.form-textarea {
+  border: white;
+  border-radius: 5px;
+  font-size: 15px;
+  width: 100%;
+}
+.form-button {
+  background-color: #3db8f5;
+  width: 25rem;
+}
+.contact-flex {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}

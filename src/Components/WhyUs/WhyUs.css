@@ -1,0 +1,20 @@
+.why-choose-us {
+  text-align: center;
+}
+.why-us{
+    margin-top: 3rem;
+}
+.why-us-div {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+}
+
+.why-us-text {
+  font-size: 28px;
+  font-weight: 700;
+}
+@media (max-width: 768px) {
+  .text-div{
+    width: 100%;
+  }
+}

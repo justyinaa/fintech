@@ -1,0 +1,21 @@
+.numbers {
+  font-size: 35px;
+  font-weight: 700;
+  color: #695eed;
+}
+.numbers-flex {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.about-text-flex {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.about-text {
+  width: 60%;
+}
+.about-div {
+  gap: 20rem;
+}

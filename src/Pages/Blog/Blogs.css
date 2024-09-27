@@ -1,0 +1,18 @@
+.blog-card{
+    width: 33.3%;
+}
+.blog-div{
+    display: flex;
+    gap: 1rem;
+}
+.blog-img {
+    width: 85%;
+    height: 50%;
+}
+.explore{
+    color: #695EED;
+    font-weight: 700;
+}
+.blog-texts{
+    width: 85%;
+}

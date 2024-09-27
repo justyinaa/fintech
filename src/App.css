@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  outline: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
+}
+:root {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+.nav-hero {
+  background-image: url("./assets/herobg.png");
+  background-repeat: no-repeat;
+}
+.button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  font-weight: 600;
+}
+.card {
+  text-align: center;
+  padding: 2rem;
+  box-shadow: 0 2px 4px rgba(241, 237, 237, 0.534);
+}
+.section {
+  padding: 1rem 4rem;
+}
+h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.services-img {
+  width: 5rem;
+  height: 4rem;
+}
+@media (max-width: 600px) {
+  .section{
+    width: 1000px;
+  }
+}

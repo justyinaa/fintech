@@ -1,0 +1,46 @@
+.job-list-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.job-listing {
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 1rem;
+}
+
+.job-listing h3 {
+  margin: 0;
+}
+
+.job-listing p {
+  margin: 0;
+}
+
+.details-button {
+  background-color: #fff;
+  color: #695eed;
+  border: 1px solid #695eed;
+}
+
+.apply-btn {
+  background-color: #3db8f5;
+  color: #fff;
+  width: fit-content;
+}
+
+.details-button:hover,
+.apply-button:hover {
+  background-color: #695eed;
+  color: white;
+}
+.apply-btn-div{
+  display: flex;
+  justify-content: flex-end;
+  gap: 2rem;
+}

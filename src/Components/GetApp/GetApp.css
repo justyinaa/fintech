@@ -1,0 +1,43 @@
+.get-app-section {
+  display: flex;
+  gap: 20rem;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: #695eed;
+  background-image: url("../../assets//Ornaments\ \(1\).png");
+}
+.get-app-btns {
+  display: flex;
+  gap: 5rem;
+  width: 70%;
+}
+.get-app-div1 {
+  width: 30%;
+}
+.app-btn {
+  background-color: white;
+  color: black;
+  /* width: 5rem; */
+  /* padding: 1rem; */
+  width: 133px;
+  height: 48px;
+  border: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.google-btn {
+  background-color: black;
+  color: white;
+  width: 133px;
+  height: 48px;
+  border: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.google-btn:hover {
+  background-color: #3f3a3a;
+}
+.app-btn:hover {
+  background-color: #f2f2f2;
+}

@@ -1,0 +1,28 @@
+.testimonials {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+.name {
+  color: #695eed;
+  font-weight: 600;
+}
+.testimonial-section {
+  margin-top: 3rem;
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+}
+.testimonials-container {
+  width: 50%;
+}
+.testimonials-img {
+  width: 5rem;
+  height: 5rem;
+}
+.img-container {
+  width: 40%;
+}
+.placeholder{
+    height: 100%;
+}

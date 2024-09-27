@@ -1,0 +1,45 @@
+.topic {
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.question-toggle {
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  background-color: #f9f9fe;
+  border: none;
+  cursor: pointer;
+}
+.questions {
+  width: 40%;
+  padding: 10px;
+  text-align: left;
+  background-color: #f9f9fe;
+  border: none;
+  cursor: pointer;
+}
+.question-toggle:hover {
+  background-color: #c0c0e6;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+}
+.link{
+    margin-bottom: 1rem;
+    color: #808080;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.link:hover{
+    color: #695EED;
+}
+.link.active {
+  color:  #695EED;
+}
+.answer {
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
